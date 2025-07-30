@@ -15,7 +15,7 @@ public class Patient {
 
     @NotNull
     /*another persistence level which prevent the null names*/
-    private String firstName;
+    private String name;
 
     @NotNull
     @Email
@@ -40,12 +40,12 @@ public class Patient {
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String firstName) {
+        this.name = firstName;
     }
 
     public String getEmail() {
