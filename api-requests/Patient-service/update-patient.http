@@ -1,0 +1,11 @@
+### PUT request to example server
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174100
+Content-Type: application/json
+
+{
+  "name": "Mohamed El Amrani updated2",
+  "email": "mohamed.elamrani@marocmail.ma",
+  "address": "12 Rue Ibn Khaldoun, Casablanca",
+  "dateOfBirth": "1984-05-11"
+}
+###
